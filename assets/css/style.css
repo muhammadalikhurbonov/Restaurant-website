@@ -1860,7 +1860,7 @@
 * body .container footer .footer_item:nth-of-type(2) .footer_item_child:nth-of-type(2) span:hover span svg path {
   fill: #f95555;
 }
-* body .container .box {
+* body .container .animation_box {
   width: 300px;
   height: 300px;
   position: absolute;
@@ -1875,7 +1875,7 @@
   transition: all 0.4s;
 }
 @media screen and (min-width: 1440px) {
-  * body {
+  * body .container {
     width: 1440px;
     margin: auto;
   }
