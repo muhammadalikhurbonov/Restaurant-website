@@ -1861,7 +1861,7 @@
 * body .container footer .footer_item:nth-of-type(2) .footer_item_child:nth-of-type(2) span:hover span svg path {
   fill: #f95555;
 }
-* body .container .animation_box form {
+* body .container .animation_box .form {
   width: 230px;
   height: 190px;
   position: absolute;
@@ -1869,11 +1869,11 @@
   transform: scale(0);
   top: 40%;
   left: 42%;
-  transition: all 0.4s;
+  transition: all 1s;
   z-index: 99;
   border-radius: 8px;
 }
-* body .container .animation_box form h2 {
+* body .container .animation_box .form h2 {
   font-family: "Outfit";
   font-style: normal;
   font-weight: 500;
@@ -1883,7 +1883,7 @@
   padding-top: 8px;
   text-align: center;
 }
-* body .container .animation_box form input {
+* body .container .animation_box .form input {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1901,13 +1901,13 @@
   height: 30px;
   margin: auto;
 }
-* body .container .animation_box form #username {
+* body .container .animation_box .form #username {
   margin-top: 10px;
 }
-* body .container .animation_box form #password {
+* body .container .animation_box .form #password {
   margin-top: 10px;
 }
-* body .container .animation_box form #button {
+* body .container .animation_box .form #button {
   margin-top: 15px;
   display: flex;
   justify-content: center;
@@ -1920,11 +1920,11 @@
   transition: all 0.4s;
   padding: 0;
 }
-* body .container .animation_box form #button:hover {
+* body .container .animation_box .form #button:hover {
   background-color: #e5e5e5;
   color: #0b6efe;
 }
-* body .container .animation_box form #exit {
+* body .container .animation_box .form #exit {
   background-color: #fff;
   color: #f95555;
   width: 20px;
@@ -1941,7 +1941,7 @@
   transform: scale(0);
   transition: all 0.4s;
 }
-* body .container .animation_box form .exit_on {
+* body .container .animation_box .form .exit_on {
   transform: scale(1);
   transition: all 0.4s;
   background-color: #fff;
@@ -1958,9 +1958,9 @@
   top: 2%;
   right: 2%;
 }
-* body .container .animation {
+* body .container .animation_time {
   transform: scale(2);
-  transition: all 0.4s;
+  transition: all 1s;
 }
 @media screen and (min-width: 1440px) {
   * body .container {
