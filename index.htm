@@ -7,7 +7,7 @@
     <title>Restaurant-website</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
-  <body>
+  <body class="body">
     <div class="container">
       <header>
         <div class="header_logo">
@@ -61,7 +61,13 @@
             </span>
           </div>
           <div class="header_button">
-            <button onclick="clickFunction()" id="login">Sign In</button>
+            <button onclick="clickFunction()" id="login">
+              <img src="" alt="" /> Sign In
+            </button>
+            <div class="dropdown-content">
+              <a onclick="logOut()" href="#">Log out</a>
+              <a href="#">About Us</a>
+            </div>
           </div>
         </div>
       </header>
@@ -851,25 +857,23 @@
           </div>
         </div>
       </footer>
-      <div class="animation_box">
-        <form class="form" id="form" action="#">
-          <h2>Login</h2>
-          <input
-            id="username"
-            type="text"
-            name="username"
-            placeholder="Username "
-          />
-          <input
-            id="password"
-            type="password"
-            name="password"
-            placeholder="Password"
-          />
-          <input id="button" type="button" value="Login" />
-          <input id="exit" onclick="ExitFunction()" type="button" value="X" />
-        </form>
-      </div>
+      <form class="form" id="form" action="#">
+        <h2>Login</h2>
+        <input
+          id="username"
+          type="text"
+          name="username"
+          placeholder="Username "
+        />
+        <input
+          id="password"
+          type="password"
+          name="password"
+          placeholder="Password"
+        />
+        <input id="button" type="button" value="Login" />
+        <div onclick="ExitFunction()" class="exit_form">X</div>
+      </form>
     </div>
     <script src="./assets/js/script.js"></script>
   </body>

@@ -131,6 +131,11 @@
             }
           }
           .header_button {
+            position: relative;
+            display: inline-block;
+            justify-content: center;
+            align-items: center;
+            transition: all 0s;
             button {
               padding: 13px 25px;
               font-family: "Poppins";
@@ -149,6 +154,32 @@
               &:hover {
                 background-color: transparent;
                 color: #f95555;
+              }
+            }
+            .dropdown-content {
+              display: none;
+              position: absolute;
+              background-color: #f9f9f9;
+              min-width: 150px;
+              border-radius: 4px 20px;
+              box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+              z-index: 1;
+              a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                font-family: "Poppins";
+                transition: all 0.4s;
+                &:hover {
+                  background-color: #f95555;
+                  color: #ffffff;
+                }
+              }
+            }
+            &:hover {
+              .dropdown-content {
+                display: none;
               }
             }
           }
@@ -1984,16 +2015,15 @@
           }
         }
       }
-      .animation_box {
-        .form {
+      .form {
         width: 230px;
         height: 190px;
         position: absolute;
         background-color: #f95555;
+        box-shadow: 0 0 20px 10px red;
         transform: scale(0);
         top: 40%;
         left: 42%;
-        transition: all 1s;
         z-index: 99;
         border-radius: 8px;
         h2 {
@@ -2002,7 +2032,7 @@
           font-weight: 500;
           font-size: 24px;
           line-height: 30px;
-          color: #2b2b2b;
+          color: #ffffff;
           padding-top: 8px;
           text-align: center;
         }
@@ -2010,7 +2040,7 @@
           display: flex;
           justify-content: center;
           align-items: center;
-          border: 1px solid #887e7e;
+          border: 1px solid #fff;
           border-radius: 5px;
           font-family: "Outfit";
           font-style: normal;
@@ -2019,7 +2049,7 @@
           line-height: 20px;
           color: #635c5c;
           padding: 5px 8px;
-          background: #e5e5e5;
+          background: #fff;
           width: 170px;
           height: 30px;
           margin: auto;
@@ -2035,7 +2065,8 @@
           display: flex;
           justify-content: center;
           align-items: center;
-          background: #0b6efe;
+          background: #d2324d;
+          border: 1px solid #d2324d;
           border-radius: 5px;
           color: #fff;
           font-size: 14px;
@@ -2044,48 +2075,47 @@
           padding: 0;
           &:hover {
             background-color: #e5e5e5;
-            color: #0b6efe;
+            border: 1px solid #e5e5e5;
+            color: #635c5c;
           }
         }
-        #exit {
-          background-color: #fff;
-          color: #f95555;
-          width: 20px;
-          height: 20px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          padding: 0;
-          border: 1px solid #878787;
-          cursor: pointer;
-          position: absolute;
-          top: 2%;
-          right: 2%;
-          transform: scale(0);
-          transition: all 0.4s;
+      }
+      .exit_form {
+        width: 10px;
+        height: 10px;
+        background-color: #fff;
+        color: #f95555;
+        display: flex;
+        font-size: 8px;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #fff;
+        cursor: pointer;
+        position: absolute;
+        font-weight: bold;
+        top: 2%;
+        right: 4%;
+        text-align: center;
+        z-index: 9999;
+        transform: scale(0);
+        font-family: "Poppins";
+        transition: all 0.4s;
+        &:hover {
+          background-color: transparent;
+          color: #fff;
         }
-        .exit_on {
-          transform: scale(1);
-          transition: all 0.4s;
-          background-color: #fff;
-          color: #f95555;
-          width: 20px;
-          height: 20px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          padding: 0;
-          border: 1px solid #878787;
-          cursor: pointer;
-          position: absolute;
-          top: 2%;
-          right: 2%;
-        }
-        }
+      }
+      .exit_on {
+        transform: scale(1);
+        transition: all 0.8s;
       }
       .animation_time {
         transform: scale(2);
-        transition: all 1s;
+        transition: all 0.8s;
+      }
+      .animation_time_off {
+        transform: scale(0);
+        transition: all 0.4s;
       }
       @media screen and (min-width: 1440px) {
         width: 1440px;
