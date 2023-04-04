@@ -464,15 +464,17 @@
   padding-bottom: 20px;
 }
 * body .container main .section_one .section_one_item:nth-of-type(2) .section_one_item_child:nth-of-type(2) {
+  position: relative;
   margin-top: 135px;
+}
+* body .container main .section_one .section_one_item:nth-of-type(2) .section_one_item_child:nth-of-type(2) .section_one_item_child_carusel {
   width: 400px;
   height: 541px;
-  position: relative;
   background-image: url("/./assets/image/img_background.png");
   border-radius: 30px;
   border-bottom-right-radius: 30px;
 }
-* body .container main .section_one .section_one_item:nth-of-type(2) .section_one_item_child:nth-of-type(2) img {
+* body .container main .section_one .section_one_item:nth-of-type(2) .section_one_item_child:nth-of-type(2) .section_one_item_child_carusel img {
   cursor: pointer;
   width: 100%;
   height: 100%;
@@ -495,7 +497,7 @@
 }
 * body .container main .section_one .section_one_item:nth-of-type(2) .section_one_item_child:nth-of-type(2) .section_one_item_child_row button:nth-of-type(1) {
   top: 90%;
-  right: 190px;
+  right: 320px;
   transform: rotate(180deg);
   flex: none;
   order: 0;
@@ -533,7 +535,7 @@
   justify-content: center;
 }
 * body .container main .section_one .section_one_item:nth-of-type(2) .section_one_item_child:nth-of-type(2) .section_one_item_child_row button:nth-of-type(2) {
-  right: 50px;
+  right: 190px;
   top: 90%;
   transform: rotate(180deg);
   display: flex;
