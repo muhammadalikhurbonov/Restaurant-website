@@ -10,21 +10,27 @@ function clickFunction() {
   document.querySelector(".body").style.background = "black";
   document.getElementById("button").addEventListener("click", function (e) {
     e.preventDefault();
-    document.getElementById("login").innerHTML = username.value;
     Form.classList.add("animation_time_off");
     document.querySelector(".dropdown-content").style.display = "block";
-    document.cookie = `Username=${username.value}`;
-    document.cookie = `Password=${password.value}`;
-    window.localStorage.setItem("Username", username.value);
-    window.localStorage.setItem("Password", password.value);
+    // document.cookie = `Username=${username.value}`;
+    // document.cookie = `Password=${password.value}`;
+    localStorage.setItem("Username", username.value);
+    localStorage.setItem("Password", password.value);
+    Login.innerHTML = localStorage.getItem("Username");
   });
 }
-// Login.innerHTML = window.localStorage.getItem("Username");
+if (localStorage.getItem("Username")) {
+  Login.innerHTML = localStorage.getItem("Username");
+}
 function logOut() {
-  Login.innerHTML = "Log In";
   window.localStorage.clear();
   document.querySelector(".dropdown-content").style.display = "none";
   document.querySelector(".body").style.background = "white";
+  if (localStorage.getItem("Username")) {
+    Login.innerHTML = localStorage.getItem("Username");
+  } else {
+    Login.innerHTML = "Log In";
+  }
 }
 function ExitFunction() {
   Form.classList.remove("animation_time");
