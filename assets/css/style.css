@@ -1938,6 +1938,7 @@
   height: 30px;
   border: 1px solid #ffffff;
   margin: auto;
+  outline: #fff;
 }
 * body .container .form input::-moz-placeholder {
   color: #d2324d;

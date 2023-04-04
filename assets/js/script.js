@@ -12,8 +12,8 @@ function clickFunction() {
     e.preventDefault();
     Form.classList.add("animation_time_off");
     document.querySelector(".dropdown-content").style.display = "block";
-    // document.cookie = `Username=${username.value}`;
-    // document.cookie = `Password=${password.value}`;
+    document.cookie = `Username=${username.value}`;
+    document.cookie = `Password=${password.value}`;
     localStorage.setItem("Username", username.value);
     localStorage.setItem("Password", password.value);
     Login.innerHTML = localStorage.getItem("Username");
