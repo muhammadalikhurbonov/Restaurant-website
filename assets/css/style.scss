@@ -2026,7 +2026,7 @@
         left: 42%;
         z-index: 99;
         border-radius: 8px;
-        h2 {
+        label {
           font-family: "Outfit";
           font-style: normal;
           font-weight: 500;
@@ -2035,6 +2035,10 @@
           color: #ffffff;
           padding-top: 8px;
           text-align: center;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: auto;
         }
         input {
           display: flex;
