@@ -1936,7 +1936,7 @@
   background: #fff;
   width: 170px;
   height: 30px;
-  border: 1px solid red;
+  border: 1px solid #ffffff;
   margin: auto;
 }
 * body .container .form input::-moz-placeholder {
