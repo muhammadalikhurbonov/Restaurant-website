@@ -1931,12 +1931,19 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 20px;
-  color: #635c5c;
+  color: #d2324d;
   padding: 5px 8px;
   background: #fff;
   width: 170px;
   height: 30px;
+  border: 1px solid red;
   margin: auto;
+}
+* body .container .form input::-moz-placeholder {
+  color: #d2324d;
+}
+* body .container .form input::placeholder {
+  color: #d2324d;
 }
 * body .container .form #username {
   margin-top: 10px;

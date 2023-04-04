@@ -2053,12 +2053,16 @@
           font-weight: 500;
           font-size: 12px;
           line-height: 20px;
-          color: #635c5c;
+          color: #d2324d;
           padding: 5px 8px;
           background: #fff;
           width: 170px;
           height: 30px;
+          border: 1px solid red;
           margin: auto;
+          &::placeholder {
+            color: #d2324d;
+          }
         }
         #username {
           margin-top: 10px;
