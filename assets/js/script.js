@@ -13,7 +13,8 @@ function clickFunction() {
     document.getElementById("login").innerHTML = username.value;
     Form.classList.add("animation_time_off");
     document.querySelector(".dropdown-content").style.display = "block";
-    document.cookie = username.value;
+    document.cookie = `Username=${username.value}`;
+    document.cookie = `Password=${password.value}`;
     window.localStorage.setItem("Username", username.value);
     window.localStorage.setItem("Password", password.value);
   });
