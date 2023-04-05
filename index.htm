@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restaurant-website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body class="body">
@@ -60,10 +67,17 @@
               </svg>
             </span>
           </div>
+          <div onclick="barscontent()" class="bars_content">
+            <span class="bars_content"> <i class="fa-solid fa-bars"></i> </span>
+            <ul id="bars_content_ul">
+              <li><a href="/">Home</a></li>
+              <li><a href="/">Menu</a></li>
+              <li><a href="/">Services</a></li>
+              <li><a href="/">Food Carts</a></li>
+            </ul>
+          </div>
           <div class="header_button">
-            <button onclick="clickFunction()" id="login">
-               Log In
-            </button>
+            <button onclick="clickFunction()" id="login">Log In</button>
             <div class="dropdown-content">
               <a href="#">Settings</a>
               <a href="#">About Us</a>
@@ -145,15 +159,15 @@
             </div>
             <div class="section_one_item_child">
               <div class="section_one_item_child_carusel">
-                <img
+                <img class="opacity"
                   src="./assets/image/section_one_item_child.png"
                   alt="hamburger"
                 />
-                <!-- <img src="./assets/image/hamburger 1.jpg" alt="hamburger" />
-                <img src="./assets/image/hamburger 2.webp" alt="hamburger" /> -->
+                <img src="./assets/image/hamburger 1.jpg" alt="hamburger" />
+                <img src="./assets/image/hamburger 2.webp" alt="hamburger" />
               </div>
               <div class="section_one_item_child_row">
-                <button onclick="leftmove()">
+                <button class="carousel_buttons_left">
                   <span>
                     <svg
                       width="42"
@@ -170,7 +184,7 @@
                     </svg>
                   </span>
                 </button>
-                <button onclick="rightmove()">
+                <button class="carousel_buttons_right">
                   <span>
                     <svg
                       width="42"
