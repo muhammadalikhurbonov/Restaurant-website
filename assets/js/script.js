@@ -43,7 +43,7 @@ function barscontent() {
 const btn_left = document.querySelector(".carousel_buttons_left");
 const btn_right = document.querySelector(".carousel_buttons_right");
 const imges = document.querySelectorAll(".section_one_item_child_carusel  img");
-const Imglegth = imges.legth - 1;
+const Imglegth = imges.length - 1;
 let position = 0;
 
 function RemoveAllClasses() {
@@ -58,6 +58,7 @@ const leftMove = () => {
   } else {
     position++;
   }
+  console.log(imges[position]);
   imges[position].classList.add("opacity");
 };
 
@@ -68,6 +69,7 @@ const rightMove = () => {
   } else {
     position--;
   }
+  console.log(imges[position]);
   imges[position].classList.add("opacity");
 };
 
