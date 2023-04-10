@@ -79,7 +79,9 @@ btn_right.addEventListener("click", leftMove);
 const bttn_left = document.querySelector(".five_item_carousel_left");
 const bttn_right = document.querySelector(".five_item_carousel_right");
 const box = document.querySelector(".section_five_item_carousel_item");
-const boxes = document.querySelectorAll(".section_five_item_carousel  section_five_item_carousel_item");
+const boxes = document.querySelectorAll(
+  ".section_five_item_carousel  section_five_item_carousel_item"
+);
 const Boxlegth = boxes.length - 1;
 let position_carousel = 0;
 

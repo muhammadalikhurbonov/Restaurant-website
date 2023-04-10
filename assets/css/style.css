@@ -3721,6 +3721,8 @@
 * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(1) img {
   width: 100%;
   height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) h2 {
   font-family: "Poppins";
@@ -3734,7 +3736,7 @@
 * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) h2::before {
   content: url("/./assets/image/before customes.png");
   position: absolute;
-  right: 2.5%;
+  right: 0;
   top: 23%;
 }
 * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel {
@@ -3891,6 +3893,1301 @@
 }
 * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .active {
   opacity: 1;
+}
+@media screen and (max-width: 1320px) {
+  * body .container main .section_five .section_five_gird {
+    gap: 40px;
+  }
+}
+@media screen and (max-width: 1297px) {
+  * body .container main .section_five .section_five_gird {
+    gap: 40px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(1) {
+    width: 500px;
+    height: 500px;
+  }
+}
+@media screen and (max-width: 1209px) {
+  * body .container main .section_five .section_five_gird {
+    gap: 40px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(1) {
+    width: 500px;
+    height: 500px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) h2 {
+    font-size: 45px;
+    line-height: 110%;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) h2::before {
+    display: none;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child .section_five_item_child_button {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 4px 10px 4px 12px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child h5 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(1) {
+    padding: 16px 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(1) span svg {
+    width: 42px;
+    height: 16px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(2) {
+    padding: 16px 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(2) span svg {
+    width: 42px;
+    height: 16px;
+  }
+}
+@media screen and (max-width: 1156px) {
+  * body .container main .section_five {
+    padding-left: 90px;
+  }
+  * body .container main .section_five .section_five_gird {
+    gap: 40px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(1) {
+    width: 500px;
+    height: 500px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) h2 {
+    font-size: 45px;
+    line-height: 110%;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) h2::before {
+    display: none;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child .section_five_item_child_button {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 4px 10px 4px 12px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child h5 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(1) {
+    padding: 16px 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(1) span svg {
+    width: 42px;
+    height: 16px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(2) {
+    padding: 16px 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(2) span svg {
+    width: 42px;
+    height: 16px;
+  }
+}
+@media screen and (max-width: 1128px) {
+  * body .container main .section_five {
+    padding-left: 90px;
+  }
+  * body .container main .section_five .section_five_gird {
+    gap: 40px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(1) {
+    width: 500px;
+    height: 500px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) h2 {
+    font-size: 40px;
+    line-height: 100%;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child .section_five_item_child_button {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 4px 10px 4px 12px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child h5 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row img {
+    width: 50px;
+    height: 50px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(1) {
+    padding: 16px 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(1) span svg {
+    width: 42px;
+    height: 16px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(2) {
+    padding: 16px 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(2) span svg {
+    width: 42px;
+    height: 16px;
+  }
+}
+@media screen and (max-width: 1072px) {
+  * body .container main .section_five {
+    padding-left: 90px;
+  }
+  * body .container main .section_five .section_five_gird {
+    gap: 40px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(1) {
+    width: 400px;
+    height: 400px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) h2 {
+    font-size: 40px;
+    line-height: 100%;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border {
+    margin-top: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child .section_five_item_child_button {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 4px 10px 4px 12px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child h5 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row img {
+    width: 50px;
+    height: 50px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button {
+    padding-top: 20px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(1) {
+    padding: 16px 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(1) span svg {
+    width: 42px;
+    height: 16px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(2) {
+    padding: 16px 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(2) span svg {
+    width: 42px;
+    height: 16px;
+  }
+}
+@media screen and (max-width: 982px) {
+  * body .container main .section_five {
+    padding-left: 60px;
+  }
+  * body .container main .section_five .section_five_gird {
+    gap: 40px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(1) {
+    width: 400px;
+    height: 400px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) h2 {
+    font-size: 40px;
+    line-height: 100%;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border {
+    margin-top: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child .section_five_item_child_button {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 4px 10px 4px 12px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child h5 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row img {
+    width: 50px;
+    height: 50px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button {
+    padding-top: 20px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(1) {
+    padding: 16px 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(1) span svg {
+    width: 42px;
+    height: 16px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(2) {
+    padding: 16px 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(2) span svg {
+    width: 42px;
+    height: 16px;
+  }
+}
+@media screen and (max-width: 947px) {
+  * body .container main .section_five {
+    padding-left: 60px;
+  }
+  * body .container main .section_five .section_five_gird {
+    gap: 40px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(1) {
+    width: 400px;
+    height: 400px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) h2 {
+    font-size: 35px;
+    line-height: 90%;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border {
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child {
+    padding-top: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child .section_five_item_child_button {
+    font-size: 10px;
+    line-height: 16px;
+    padding: 4px 10px 4px 12px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child h5 {
+    font-size: 10px;
+    line-height: 16px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col {
+    padding-top: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row {
+    box-shadow: none;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row img {
+    box-shadow: 0px 10px 30px rgba(43, 43, 43, 0.2);
+    padding: 6px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col span {
+    padding-right: 16px;
+    padding-left: 10px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row_text h5 {
+    font-size: 18px;
+    line-height: 110%;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row_text h6 {
+    font-size: 14px;
+    line-height: 110%;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button {
+    padding-top: 20px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(1) {
+    padding: 14px 28px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(1) span svg {
+    width: 40px;
+    height: 14px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(2) {
+    padding: 14px 28px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(2) span svg {
+    width: 40px;
+    height: 14px;
+  }
+}
+@media screen and (max-width: 895px) {
+  * body .container main .section_five {
+    padding-left: 40px;
+  }
+  * body .container main .section_five .section_five_gird {
+    gap: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(1) {
+    width: 400px;
+    height: 400px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) h2 {
+    font-size: 35px;
+    line-height: 90%;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border {
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child {
+    padding-top: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child .section_five_item_child_button {
+    font-size: 10px;
+    line-height: 16px;
+    padding: 4px 10px 4px 12px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child h5 {
+    font-size: 10px;
+    line-height: 16px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col {
+    padding-top: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row {
+    box-shadow: none;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row img {
+    box-shadow: 0px 10px 30px rgba(43, 43, 43, 0.2);
+    padding: 6px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col span {
+    padding-right: 16px;
+    padding-left: 10px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row_text h5 {
+    font-size: 18px;
+    line-height: 110%;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row_text h6 {
+    font-size: 14px;
+    line-height: 110%;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button {
+    padding-top: 20px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(1) {
+    padding: 14px 28px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(1) span svg {
+    width: 40px;
+    height: 14px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(2) {
+    padding: 14px 28px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(2) span svg {
+    width: 40px;
+    height: 14px;
+  }
+}
+@media screen and (max-width: 861px) {
+  * body .container main .section_five {
+    padding-left: 40px;
+  }
+  * body .container main .section_five .section_five_gird {
+    gap: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(1) {
+    width: 350px;
+    height: 350px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) h2 {
+    font-size: 35px;
+    line-height: 90%;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border {
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child {
+    padding-top: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child .section_five_item_child_button {
+    font-size: 10px;
+    line-height: 16px;
+    padding: 4px 10px 4px 12px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child h5 {
+    font-size: 10px;
+    line-height: 16px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col {
+    padding-top: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row {
+    box-shadow: none;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row img {
+    box-shadow: 0px 10px 30px rgba(43, 43, 43, 0.2);
+    padding: 6px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col span {
+    padding-right: 16px;
+    padding-left: 10px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row_text h5 {
+    font-size: 18px;
+    line-height: 110%;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row_text h6 {
+    font-size: 14px;
+    line-height: 110%;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button {
+    padding-top: 20px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(1) {
+    padding: 14px 28px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(1) span svg {
+    width: 40px;
+    height: 14px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(2) {
+    padding: 14px 28px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(2) span svg {
+    width: 40px;
+    height: 14px;
+  }
+}
+@media screen and (max-width: 815px) {
+  * body .container main .section_five {
+    padding-left: 40px;
+  }
+  * body .container main .section_five .section_five_gird {
+    gap: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(1) {
+    width: 350px;
+    height: 350px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) h2 {
+    font-size: 30px;
+    line-height: 90%;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border {
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child {
+    padding-top: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child .section_five_item_child_button {
+    font-size: 10px;
+    line-height: 16px;
+    padding: 4px 10px 4px 12px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child h5 {
+    font-size: 10px;
+    line-height: 16px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col {
+    padding-top: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row {
+    box-shadow: none;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row img {
+    box-shadow: 0px 10px 30px rgba(43, 43, 43, 0.2);
+    padding: 6px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col span {
+    padding-right: 16px;
+    padding-left: 10px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row_text h5 {
+    font-size: 14px;
+    line-height: 100%;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row_text h6 {
+    font-size: 12px;
+    line-height: 100%;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button {
+    padding-top: 20px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(1) {
+    padding: 12px 26px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(1) span svg {
+    width: 40px;
+    height: 14px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(2) {
+    padding: 12px 26px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(2) span svg {
+    width: 40px;
+    height: 14px;
+  }
+}
+@media screen and (max-width: 760px) {
+  * body .container main .section_five {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  * body .container main .section_five .section_five_gird {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 350px;
+    height: 350px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) h2 {
+    font-size: 30px;
+    line-height: 90%;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border {
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child {
+    padding-top: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child .section_five_item_child_button {
+    font-size: 10px;
+    line-height: 16px;
+    padding: 4px 10px 4px 12px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child h5 {
+    font-size: 10px;
+    line-height: 16px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col {
+    padding-top: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row {
+    box-shadow: none;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row img {
+    box-shadow: 0px 10px 30px rgba(43, 43, 43, 0.2);
+    padding: 6px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col span {
+    padding-right: 16px;
+    padding-left: 10px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row_text h5 {
+    font-size: 14px;
+    line-height: 100%;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row_text h6 {
+    font-size: 12px;
+    line-height: 100%;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button {
+    padding-top: 20px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(1) {
+    padding: 12px 26px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(1) span svg {
+    width: 40px;
+    height: 14px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(2) {
+    padding: 12px 26px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(2) span svg {
+    width: 40px;
+    height: 14px;
+  }
+}
+@media screen and (max-width: 756px) {
+  * body .container main .section_five {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  * body .container main .section_five .section_five_gird {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 350px;
+    height: 350px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) h2 {
+    font-size: 30px;
+    line-height: 90%;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border {
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child {
+    padding-top: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child .section_five_item_child_button {
+    font-size: 10px;
+    line-height: 16px;
+    padding: 4px 10px 4px 12px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child h5 {
+    font-size: 10px;
+    line-height: 16px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col {
+    padding-top: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row {
+    box-shadow: none;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row img {
+    box-shadow: 0px 10px 30px rgba(43, 43, 43, 0.2);
+    padding: 6px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col span {
+    padding-right: 16px;
+    padding-left: 10px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row_text h5 {
+    font-size: 14px;
+    line-height: 100%;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row_text h6 {
+    font-size: 12px;
+    line-height: 100%;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button {
+    padding-top: 20px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(1) {
+    padding: 12px 26px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(1) span svg {
+    width: 40px;
+    height: 14px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(2) {
+    padding: 12px 26px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(2) span svg {
+    width: 40px;
+    height: 14px;
+  }
+}
+@media screen and (max-width: 717px) {
+  * body .container main .section_five {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 350px;
+  }
+  * body .container main .section_five .section_five_gird {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 600px;
+    height: 600px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) {
+    margin: auto;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) h2 {
+    font-size: 40px;
+    line-height: 110%;
+    text-align: center;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border {
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child {
+    padding-top: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child .section_five_item_child_button {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 4px 10px 4px 12px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child h5 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col {
+    padding-top: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row {
+    box-shadow: none;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row img {
+    box-shadow: 0px 10px 30px rgba(43, 43, 43, 0.2);
+    padding: 6px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col span {
+    padding-right: 16px;
+    padding-left: 10px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row_text h5 {
+    font-size: 16px;
+    line-height: 110%;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row_text h6 {
+    font-size: 14px;
+    line-height: 110%;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button {
+    padding-top: 20px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(1) {
+    padding: 16px 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(1) span svg {
+    width: 40px;
+    height: 14px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(2) {
+    padding: 16px 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(2) span svg {
+    width: 40px;
+    height: 14px;
+  }
+}
+@media screen and (max-width: 626px) {
+  * body .container main .section_five {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 350px;
+  }
+  * body .container main .section_five .section_five_gird {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) {
+    margin: auto;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) h2 {
+    font-size: 40px;
+    line-height: 110%;
+    text-align: center;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border {
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child {
+    padding-top: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child .section_five_item_child_button {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 4px 10px 4px 12px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child h5 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col {
+    padding-top: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row {
+    box-shadow: none;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row img {
+    box-shadow: 0px 10px 30px rgba(43, 43, 43, 0.2);
+    padding: 6px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col span {
+    padding-right: 16px;
+    padding-left: 10px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row_text h5 {
+    font-size: 16px;
+    line-height: 110%;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row_text h6 {
+    font-size: 14px;
+    line-height: 110%;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button {
+    padding-top: 20px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(1) {
+    padding: 16px 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(1) span svg {
+    width: 40px;
+    height: 14px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(2) {
+    padding: 16px 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(2) span svg {
+    width: 40px;
+    height: 14px;
+  }
+}
+@media screen and (max-width: 554px) {
+  * body .container main .section_five {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 350px;
+  }
+  * body .container main .section_five .section_five_gird {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) {
+    margin: auto;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) h2 {
+    font-size: 40px;
+    line-height: 110%;
+    text-align: center;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border {
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child {
+    padding-top: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child .section_five_item_child_button {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 4px 10px 4px 12px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child h5 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col {
+    padding-top: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row {
+    box-shadow: none;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row img {
+    box-shadow: 0px 10px 30px rgba(43, 43, 43, 0.2);
+    padding: 6px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col span {
+    padding-right: 16px;
+    padding-left: 10px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row_text h5 {
+    font-size: 16px;
+    line-height: 110%;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row_text h6 {
+    font-size: 14px;
+    line-height: 110%;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button {
+    padding-top: 20px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(1) {
+    padding: 16px 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(1) span svg {
+    width: 40px;
+    height: 14px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(2) {
+    padding: 16px 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(2) span svg {
+    width: 40px;
+    height: 14px;
+  }
+}
+@media screen and (max-width: 480px) {
+  * body .container main .section_five {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 350px;
+  }
+  * body .container main .section_five .section_five_gird {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 350px;
+    height: 350px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) {
+    margin: auto;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) h2 {
+    font-size: 35px;
+    line-height: 100%;
+    text-align: center;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border {
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child {
+    padding-top: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child .section_five_item_child_button {
+    font-size: 10px;
+    line-height: 16px;
+    padding: 4px 10px 4px 12px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child h5 {
+    font-size: 10px;
+    line-height: 16px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col {
+    padding-top: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row {
+    box-shadow: none;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row img {
+    box-shadow: 0px 10px 30px rgba(43, 43, 43, 0.2);
+    padding: 6px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col span {
+    padding-right: 16px;
+    padding-left: 10px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row_text h5 {
+    font-size: 16px;
+    line-height: 110%;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row_text h6 {
+    font-size: 14px;
+    line-height: 110%;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button {
+    padding-top: 20px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(1) {
+    padding: 14px 28px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(1) span svg {
+    width: 40px;
+    height: 14px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(2) {
+    padding: 14px 28px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(2) span svg {
+    width: 40px;
+    height: 14px;
+  }
+}
+@media screen and (max-width: 417px) {
+  * body .container main .section_five {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 350px;
+  }
+  * body .container main .section_five .section_five_gird {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) {
+    margin: auto;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) h2 {
+    font-size: 30px;
+    line-height: 90%;
+    text-align: center;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border {
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child {
+    padding-top: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child .section_five_item_child_button {
+    font-size: 10px;
+    line-height: 16px;
+    padding: 4px 10px 4px 12px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child h5 {
+    font-size: 10px;
+    line-height: 16px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col {
+    padding-top: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row {
+    box-shadow: none;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row img {
+    box-shadow: 0px 10px 30px rgba(43, 43, 43, 0.2);
+    padding: 6px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col span {
+    padding-right: 16px;
+    padding-left: 10px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row_text h5 {
+    font-size: 14px;
+    line-height: 100%;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row_text h6 {
+    padding-top: 10px;
+    font-size: 12px;
+    line-height: 100%;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button {
+    padding-top: 20px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(1) {
+    padding: 12px 26px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(1) span svg {
+    width: 38px;
+    height: 12px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(2) {
+    padding: 12px 26px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(2) span svg {
+    width: 38px;
+    height: 12px;
+  }
+}
+@media screen and (max-width: 361px) {
+  * body .container main .section_five {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 250px;
+  }
+  * body .container main .section_five .section_five_gird {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) {
+    margin: auto;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) h2 {
+    font-size: 25px;
+    line-height: 90%;
+    text-align: center;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border {
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child {
+    padding-left: 5px;
+    padding-top: 10px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child .section_five_item_child_button {
+    font-size: 10px;
+    line-height: 16px;
+    padding: 4px 10px 4px 12px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child h5 {
+    font-size: 10px;
+    line-height: 16px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border p {
+    padding-left: 5px;
+    font-size: 10px;
+    line-height: 18px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col {
+    padding-left: 5px;
+    padding-top: 30px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row {
+    box-shadow: none;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row img {
+    box-shadow: 0px 10px 30px rgba(43, 43, 43, 0.2);
+    padding: 6px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col span {
+    padding-right: 16px;
+    padding-left: 10px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row_text h5 {
+    font-size: 14px;
+    line-height: 100%;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_item_border .section_five_item_child_col .section_five_item_child_row_text h6 {
+    padding-top: 10px;
+    font-size: 12px;
+    line-height: 100%;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button {
+    padding-left: 5px;
+    padding-top: 20px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(1) {
+    padding: 10px 24px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(1) span svg {
+    width: 34px;
+    height: 10px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(2) {
+    padding: 10px 24px;
+  }
+  * body .container main .section_five .section_five_gird .section_five_item:nth-of-type(2) .section_five_item_carousel .section_five_item_carousel_item .section_five_button button:nth-of-type(2) span svg {
+    width: 34px;
+    height: 10px;
+  }
 }
 * body .container footer {
   position: relative;
