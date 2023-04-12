@@ -6025,32 +6025,32 @@
     left: 37%;
     top: 35%;
     width: 120px;
-    height: 105px;
+    height: 115px;
   }
   * body .container .form label {
     padding-top: 4px;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 18px;
   }
   * body .container .form input {
     margin-top: 5px;
-    font-size: 6px;
+    font-size: 8px;
     line-height: 14px;
-    width: 70px;
-    height: 15px;
+    width: 90px;
+    height: 20px;
   }
   * body .container .form #button {
-    font-size: 8px;
+    font-size: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 8px;
   }
   * body .container .form #username {
-    margin-top: 3px;
+    margin-top: 5px;
   }
   * body .container .exit_form {
-    font-size: 6px;
+    font-size: 7px;
     width: 7px;
     height: 7px;
     display: flex;
@@ -6061,7 +6061,7 @@
 @media screen and (max-width: 332px) {
   * body .container .form {
     left: 34%;
-    top: 50%;
+    top: 40%;
     width: 110px;
     height: 100px;
   }
