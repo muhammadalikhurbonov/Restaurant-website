@@ -144,6 +144,7 @@
             }
           }
           .bars_content {
+            display: none;
             #bars_content_ul {
               display: none;
               position: absolute;
@@ -6708,6 +6709,260 @@
       @media screen and (min-width: 1440px) {
         width: 1440px;
         margin: auto;
+      }
+      @media screen and (max-width: 1101px){
+        .form{
+          top: 55%;
+          width: 180px;
+          height: 150px;
+          label{
+            font-size: 20px;
+          line-height: 26px;
+          }
+          input{
+            font-size: 8px;
+            line-height: 16px;
+            width: 140px;
+            height: 20px;
+          }
+          #button{
+          font-size: 12px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          }
+        }
+      }
+      @media screen and (max-width: 768px){
+        .form{
+          left: 38%;
+          top: 55%;
+          width: 180px;
+          height: 150px;
+          label{
+            font-size: 20px;
+          line-height: 26px;
+          }
+          input{
+            font-size: 8px;
+            line-height: 16px;
+            width: 140px;
+            height: 20px;
+          }
+          #button{
+          font-size: 12px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          }
+        }
+      }
+      @media screen and (max-width: 600px){
+        .form{
+          left: 37%;
+          top: 55%;
+          width: 180px;
+          height: 150px;
+          label{
+            font-size: 20px;
+          line-height: 26px;
+          }
+          input{
+            font-size: 8px;
+            line-height: 16px;
+            width: 140px;
+            height: 20px;
+          }
+          #button{
+          font-size: 12px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          }
+        }
+      }
+      @media screen and (max-width: 570px){
+        .form{
+          left: 37%;
+          top: 50%;
+          width: 150px;
+          height: 125px;
+          label{
+            padding-top: 4px;
+            font-size: 16px;
+          line-height: 22px;
+          }
+          input{
+            font-size: 8px;
+            line-height: 16px;
+            width: 100px;
+            height: 20px;
+
+          }
+          #button{
+          font-size: 10px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 8px;
+          }
+        }
+        .exit_form{
+        font-size: 6px;
+        width: 7px;
+        height: 7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+      }
+      @media screen and (max-width: 447px){
+        .form{
+          left: 35%;
+          top: 50%;
+          width: 150px;
+          height: 125px;
+          label{
+            padding-top: 4px;
+            font-size: 16px;
+          line-height: 22px;
+          }
+          input{
+            font-size: 8px;
+            line-height: 16px;
+            width: 100px;
+            height: 20px;
+
+          }
+          #button{
+          font-size: 10px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 8px;
+          }
+        }
+        .exit_form{
+        font-size: 6px;
+        width: 7px;
+        height: 7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+      }
+      @media screen and (max-width: 430px){
+        .form{
+          left: 34%;
+          top: 50%;
+          width: 150px;
+          height: 125px;
+          label{
+            padding-top: 4px;
+            font-size: 16px;
+          line-height: 22px;
+          }
+          input{
+            font-size: 8px;
+            line-height: 16px;
+            width: 100px;
+            height: 20px;
+
+          }
+          #button{
+          font-size: 10px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 8px;
+          }
+        }
+        .exit_form{
+        font-size: 6px;
+        width: 7px;
+        height: 7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+      }
+      @media screen and (max-width: 398px){
+        .form{
+          left: 37%;
+          top: 50%;
+          width: 110px;
+          height: 100px;
+          label{
+            padding-top: 4px;
+            font-size: 12px;
+          line-height: 18px;
+          }
+          input{
+            margin-top: 5px;
+            font-size: 6px;
+            line-height: 14px;
+            width: 70px;
+            height: 15px;
+
+          }
+          #button{
+          font-size: 8px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 8px;
+          }
+          #username{
+            margin-top: 3px;
+          }
+        }
+        .exit_form{
+        font-size: 6px;
+        width: 7px;
+        height: 7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+      }
+      @media screen and (max-width: 332px){
+        .form{
+          left: 34%;
+          top: 50%;
+          width: 110px;
+          height: 100px;
+          label{
+            padding-top: 4px;
+            font-size: 12px;
+          line-height: 18px;
+          }
+          input{
+            margin-top: 5px;
+            font-size: 6px;
+            line-height: 14px;
+            width: 70px;
+            height: 15px;
+
+          }
+          #button{
+          font-size: 8px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 8px;
+          }
+          #username{
+            margin-top: 3px;
+          }
+        }
+        .exit_form{
+        font-size: 6px;
+        width: 7px;
+        height: 7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
       }
     }
   }
