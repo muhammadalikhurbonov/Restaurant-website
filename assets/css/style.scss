@@ -155,18 +155,18 @@
               border-radius: 4px 20px;
               box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
               z-index: 1;
-                a {
-                  color: black;
-                  padding: 12px 16px;
-                  text-decoration: none;
-                  display: block;
-                  font-family: "Poppins";
-                  transition: all 0.4s;
-                  &:hover {
-                    background-color: #f95555;
-                    color: #ffffff;
-                  }
+              a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                font-family: "Poppins";
+                transition: all 0.4s;
+                &:hover {
+                  background-color: #f95555;
+                  color: #ffffff;
                 }
+              }
             }
           }
           .header_button {
@@ -5800,20 +5800,20 @@
                       }
                     }
                   }
-                  .section_five_item_carousel_button{
-                    .five_item_carousel_left{
-                    padding: 12px 26px;
-                    span{
-                      svg{
-                        width: 36px;
-                        height: 12px;
+                  .section_five_item_carousel_button {
+                    .five_item_carousel_left {
+                      padding: 12px 26px;
+                      span {
+                        svg {
+                          width: 36px;
+                          height: 12px;
+                        }
                       }
                     }
-                    }
-                    .five_item_carousel_right{
+                    .five_item_carousel_right {
                       padding: 12px 26px;
-                      span{
-                        svg{
+                      span {
+                        svg {
                           width: 36px;
                           height: 12px;
                         }
@@ -6712,258 +6712,253 @@
         width: 1440px;
         margin: auto;
       }
-      @media screen and (max-width: 1101px){
-        .form{
+      @media screen and (max-width: 1101px) {
+        .form {
           top: 55%;
           width: 180px;
           height: 150px;
-          label{
+          label {
             font-size: 20px;
-          line-height: 26px;
+            line-height: 26px;
           }
-          input{
+          input {
             font-size: 8px;
             line-height: 16px;
             width: 140px;
             height: 20px;
           }
-          #button{
-          font-size: 12px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
+          #button {
+            font-size: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
           }
         }
       }
-      @media screen and (max-width: 768px){
-        .form{
+      @media screen and (max-width: 768px) {
+        .form {
           left: 38%;
           top: 55%;
           width: 180px;
           height: 150px;
-          label{
+          label {
             font-size: 20px;
-          line-height: 26px;
+            line-height: 26px;
           }
-          input{
+          input {
             font-size: 8px;
             line-height: 16px;
             width: 140px;
             height: 20px;
           }
-          #button{
-          font-size: 12px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
+          #button {
+            font-size: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
           }
         }
       }
-      @media screen and (max-width: 600px){
-        .form{
+      @media screen and (max-width: 600px) {
+        .form {
           left: 37%;
           top: 55%;
           width: 180px;
           height: 150px;
-          label{
+          label {
             font-size: 20px;
-          line-height: 26px;
+            line-height: 26px;
           }
-          input{
+          input {
             font-size: 8px;
             line-height: 16px;
             width: 140px;
             height: 20px;
           }
-          #button{
-          font-size: 12px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
+          #button {
+            font-size: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
           }
         }
       }
-      @media screen and (max-width: 570px){
-        .form{
+      @media screen and (max-width: 570px) {
+        .form {
           left: 37%;
           top: 50%;
           width: 150px;
           height: 125px;
-          label{
+          label {
             padding-top: 4px;
             font-size: 16px;
-          line-height: 22px;
+            line-height: 22px;
           }
-          input{
+          input {
             font-size: 8px;
             line-height: 16px;
             width: 100px;
             height: 20px;
-
           }
-          #button{
-          font-size: 10px;
+          #button {
+            font-size: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 8px;
+          }
+        }
+        .exit_form {
+          font-size: 6px;
+          width: 7px;
+          height: 7px;
           display: flex;
           justify-content: center;
           align-items: center;
-          margin-top: 8px;
-          }
-        }
-        .exit_form{
-        font-size: 6px;
-        width: 7px;
-        height: 7px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         }
       }
-      @media screen and (max-width: 447px){
-        .form{
+      @media screen and (max-width: 447px) {
+        .form {
           left: 35%;
           top: 50%;
           width: 150px;
           height: 125px;
-          label{
+          label {
             padding-top: 4px;
             font-size: 16px;
-          line-height: 22px;
+            line-height: 22px;
           }
-          input{
+          input {
             font-size: 8px;
             line-height: 16px;
             width: 100px;
             height: 20px;
-
           }
-          #button{
-          font-size: 10px;
+          #button {
+            font-size: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 8px;
+          }
+        }
+        .exit_form {
+          font-size: 6px;
+          width: 7px;
+          height: 7px;
           display: flex;
           justify-content: center;
           align-items: center;
-          margin-top: 8px;
-          }
-        }
-        .exit_form{
-        font-size: 6px;
-        width: 7px;
-        height: 7px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         }
       }
-      @media screen and (max-width: 430px){
-        .form{
+      @media screen and (max-width: 430px) {
+        .form {
           left: 34%;
           top: 50%;
           width: 150px;
           height: 125px;
-          label{
+          label {
             padding-top: 4px;
             font-size: 16px;
-          line-height: 22px;
+            line-height: 22px;
           }
-          input{
+          input {
             font-size: 8px;
             line-height: 16px;
             width: 100px;
             height: 20px;
-
           }
-          #button{
-          font-size: 10px;
+          #button {
+            font-size: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 8px;
+          }
+        }
+        .exit_form {
+          font-size: 6px;
+          width: 7px;
+          height: 7px;
           display: flex;
           justify-content: center;
           align-items: center;
-          margin-top: 8px;
-          }
-        }
-        .exit_form{
-        font-size: 6px;
-        width: 7px;
-        height: 7px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         }
       }
-      @media screen and (max-width: 398px){
-        .form{
+      @media screen and (max-width: 398px) {
+        .form {
           left: 37%;
           top: 35%;
           width: 120px;
           height: 115px;
-          label{
+          label {
             padding-top: 4px;
             font-size: 14px;
-          line-height: 18px;
+            line-height: 18px;
           }
-          input{
+          input {
             margin-top: 5px;
             font-size: 8px;
             line-height: 14px;
             width: 90px;
             height: 20px;
-
           }
-          #button{
-          font-size: 10px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          margin-top: 8px;
+          #button {
+            font-size: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 8px;
           }
-          #username{
+          #username {
             margin-top: 5px;
           }
         }
-        .exit_form{
-        font-size: 7px;
-        width: 7px;
-        height: 7px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        .exit_form {
+          font-size: 7px;
+          width: 7px;
+          height: 7px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
         }
       }
-      @media screen and (max-width: 332px){
-        .form{
+      @media screen and (max-width: 332px) {
+        .form {
           left: 34%;
           top: 40%;
           width: 110px;
           height: 100px;
-          label{
+          label {
             padding-top: 4px;
             font-size: 12px;
-          line-height: 18px;
+            line-height: 18px;
           }
-          input{
+          input {
             margin-top: 5px;
             font-size: 6px;
             line-height: 14px;
             width: 70px;
             height: 15px;
-
           }
-          #button{
-          font-size: 8px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          margin-top: 8px;
+          #button {
+            font-size: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 8px;
           }
-          #username{
+          #username {
             margin-top: 3px;
           }
         }
-        .exit_form{
-        font-size: 6px;
-        width: 7px;
-        height: 7px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        .exit_form {
+          font-size: 6px;
+          width: 7px;
+          height: 7px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
         }
       }
     }
