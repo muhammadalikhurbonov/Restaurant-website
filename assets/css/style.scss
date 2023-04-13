@@ -2609,6 +2609,11 @@
           @media screen and (max-width: 908px) {
             .section_two_item {
               gap: 40px;
+              .section_two_item_child{
+                &:nth-of-type(3){
+                  margin-top: 50px;
+                }
+              }
             }
           }
           @media screen and (max-width: 830px) {
