@@ -2219,6 +2219,9 @@
   * body .container main .section_two .section_two_item {
     gap: 40px;
   }
+  * body .container main .section_two .section_two_item .section_two_item_child:nth-of-type(3) {
+    margin-top: 50px;
+  }
 }
 @media screen and (max-width: 830px) {
   * body .container main .section_two {
